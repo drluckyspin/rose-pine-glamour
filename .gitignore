@@ -4,3 +4,12 @@
 # Go
 go.work
 go.work.sum
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+
