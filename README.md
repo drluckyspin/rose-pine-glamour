@@ -14,28 +14,32 @@
         <img src="https://img.shields.io/badge/community-rosé%20pine-26233a?labelColor=191724&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUwIiBoZWlnaHQ9IjIzNyIgdmlld0JveD0iMCAwIDI1MCAyMzciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xNjEuMjI3IDE2MS4yNTFDMTMyLjE1NCAxNjkuMDQxIDExNC45MDEgMTk4LjkyNCAxMjIuNjkxIDIyNy45OTdDMTIzLjkyNSAyMzIuNjAzIDEyOC42NTkgMjM1LjMzNiAxMzMuMjY0IDIzNC4xMDJMMTg1LjkwNyAyMTkuOTk2QzIxOS41ODUgMjEwLjk3MiAyMzkuNTcgMTc2LjM1NCAyMzAuNTQ2IDE0Mi42NzdMMTYxLjIyNyAxNjEuMjUxWiIgZmlsbD0iIzI0NjI3QiIvPgo8cGF0aCBkPSJNODguMTgzNiAxNTkuOTg4QzExNy4yNTcgMTY3Ljc3OCAxMzQuNTEgMTk3LjY2MiAxMjYuNzIgMjI2LjczNUMxMjUuNDg2IDIzMS4zNCAxMjAuNzUyIDIzNC4wNzMgMTE2LjE0NyAyMzIuODM5TDYzLjUwNDEgMjE4LjczM0MyOS44MjY0IDIwOS43MSA5Ljg0MDk0IDE3NS4wOTIgMTguODY0OSAxNDEuNDE0TDg4LjE4MzYgMTU5Ljk4OFoiIGZpbGw9IiMyNDYyN0IiLz4KPHBhdGggZD0iTTE4Ni44NjcgMTcyLjk4QzE1Mi4wMDIgMTcyLjk4IDEyMy43MzcgMjAxLjI0NSAxMjMuNzM3IDIzNi4xMTFIMTg2Ljg3QzIyMS43MzYgMjM2LjExMSAyNTAgMjA3Ljg0NiAyNTAgMTcyLjk4TDE4Ni44NjcgMTcyLjk4WiIgZmlsbD0iIzMxNzQ4RiIvPgo8cGF0aCBkPSJNNjMuMTMyNyAxNzIuOThDOTcuOTk4NCAxNzIuOTggMTI2LjI2MyAyMDEuMjQ1IDEyNi4yNjMgMjM2LjExMUg2My4xM0MyOC4yNjQyIDIzNi4xMTEgLTEuNTI0MDNlLTA2IDIwNy44NDYgMCAxNzIuOThMNjMuMTMyNyAxNzIuOThaIiBmaWxsPSIjMzE3NDhGIi8+CjxwYXRoIGQ9Ik0xNzEuNzE3IDc1LjEyNjNDMTcxLjcxNyAxMDEuMjc2IDE1MC41MTggMTIyLjQ3NSAxMjQuMzY5IDEyMi40NzVDOTguMjE4OCAxMjIuNDc1IDc3LjAyMDIgMTAxLjI3NiA3Ny4wMjAyIDc1LjEyNjNDNzcuMDIwMiA0OC45NzY0IDk4LjIxODggMjcuNzc3OCAxMjQuMzY5IDI3Ljc3NzhDMTUwLjUxOCAyNy43Nzc4IDE3MS43MTcgNDguOTc2NCAxNzEuNzE3IDc1LjEyNjNaIiBmaWxsPSIjRUJCQ0JBIi8+CjxwYXRoIGQ9Ik0xNDQuMjE3IDg2LjIzNzlDMTYxLjY0OSA1Ni4wNDMyIDE1MS4zMDMgMTcuNDMyOSAxMjEuMTA4IDBMMTA2LjA2IDI2LjA2NDRDODguNjI3IDU2LjI1OSA5OC45NzM2IDk0Ljg2OTQgMTI5LjE2OCAxMTIuMzAyTDE0NC4yMTcgODYuMjM3OVoiIGZpbGw9IiNFQkJDQkEiLz4KPHBhdGggZD0iTTEyNS4yOTkgNjAuOTc4OUMxMTYuMjc1IDI3LjMwMTIgODEuNjU3NSA3LjMxNTY3IDQ3Ljk3OTcgMTYuMzM5Nkw2NC4zMTk3IDc3LjMyMTFDNzMuMzQzNiAxMTAuOTk5IDEwNy45NjEgMTMwLjk4NCAxNDEuNjM5IDEyMS45NkwxMjUuMjk5IDYwLjk3ODlaIiBmaWxsPSIjRUJCQ0JBIi8+CjxwYXRoIGQ9Ik0xMjQuOTI2IDYwLjk3ODlDMTMzLjk1IDI3LjMwMTIgMTY4LjU2NyA3LjMxNTY3IDIwMi4yNDUgMTYuMzM5NkwxODUuOTA1IDc3LjMyMTFDMTc2Ljg4MSAxMTAuOTk5IDE0Mi4yNjMgMTMwLjk4NCAxMDguNTg2IDEyMS45NkwxMjQuOTI2IDYwLjk3ODlaIiBmaWxsPSIjRUJCQ0JBIi8+Cjwvc3ZnPgo=&style=for-the-badge" />
     </a>
 </p>
+<!-- markdownlint-enable MD013 -->
 
-Rosé Pine [Glamour](https://github.com/charmbracelet/glamour) styles for terminal applications. Go sources under
-[`styles/`](styles/) build to JSON stylesheets; colors follow the official [**Rosé Pine**](https://rosepinetheme.com/)
-palette, with one addition from [rose-pine-bat](https://github.com/drluckyspin/rose-pine-bat).
+[Glamour](https://github.com/charmbracelet/glamour) styles for terminal markdown — headings, emphasis, links, and fenced
+code with syntax highlighting, all in [**Rosé Pine**](https://rosepinetheme.com/) colors. Use them in any Glamour-based
+apps so rendered READMEs and notes match the rest of your terminal setup.
+
+Go sources under [`styles/`](styles/) build portable `styles/*.json` stylesheets; colors follow the official Rosé Pine
+palette. If you're not building your own application and just want to view Rosé Pine syntax highlighted markdown files,
+then you probably want to try [rose-pine-bat](https://github.com/drluckyspin/rose-pine-bat) directly.
 
 ## TL;DR
 
 ```bash
 make check
 make build
-make test
 make preview
 ```
 
 ## Variants
 
-| Style name            | File                                                                 | Description              |
-| --------------------- | -------------------------------------------------------------------- | ------------------------ |
-| `rose-pine`           | [`styles/rose-pine.json`](styles/rose-pine.json)                     | Rosé Pine main (dark)    |
-| `rose-pine-moon`      | [`styles/rose-pine-moon.json`](styles/rose-pine-moon.json)           | Rosé Pine Moon           |
-| `rose-pine-moon-dark` | [`styles/rose-pine-moon-dark.json`](styles/rose-pine-moon-dark.json) | Moon syntax on main base |
-| `rose-pine-dawn`      | [`styles/rose-pine-dawn.json`](styles/rose-pine-dawn.json)           | Rosé Pine Dawn (light)   |
+| Style name            | File                                                                 | Description            |
+| --------------------- | -------------------------------------------------------------------- | ---------------------- |
+| `rose-pine`           | [`styles/rose-pine.json`](styles/rose-pine.json)                     | Rosé Pine main (dark)  |
+| `rose-pine-dawn`      | [`styles/rose-pine-dawn.json`](styles/rose-pine-dawn.json)           | Rosé Pine Dawn (light) |
+| `rose-pine-moon`      | [`styles/rose-pine-moon.json`](styles/rose-pine-moon.json)           | Rosé Pine Moon         |
+| `rose-pine-moon-dark` | [`styles/rose-pine-moon-dark.json`](styles/rose-pine-moon-dark.json) | Moon syntax on main bg |
 
 ## Usage
 
@@ -107,7 +111,7 @@ rose-pine-glamour/
 ## Developing
 
 Requires `jq` and `go` (`brew install jq go`). Optional: `glow` for `make preview`; `python3` + Pillow for
-`make screenshots` (`brew install pillow`).
+`make screenshots` (`brew install python pillow`).
 
 ```bash
 make help         # list targets (Rosé Pine–themed output)
@@ -124,14 +128,14 @@ Edit palette roles in [`styles/palette.go`](styles/palette.go) and shared elemen
 
 ## See also
 
-| Repo                                                            | Notes                                      |
-| --------------------------------------------------------------- | ------------------------------------------ |
-| [rose-pine-glow](https://github.com/drluckyspin/rose-pine-glow) | Glow installer and `glow.yml` workflow     |
-| [rose-pine-bat](https://github.com/drluckyspin/rose-pine-bat)   | bat syntax theme — roles stay aligned here |
+| Repo                                                            | Notes                                                                                             |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| [rose-pine-glow](https://github.com/drluckyspin/rose-pine-glow) | Rosé Pine themes for [**Glow**](https://github.com/charmbracelet/glow) with interactive installer |
+| [rose-pine-bat](https://github.com/drluckyspin/rose-pine-bat)   | Rosé Pine themes for [**bat**](https://github.com/sharkdp/) with installer                        |
 
 ## Thanks to
 
-- [charmbracelet/glamour](https://github.com/charmbracelet/glamour)
+- [charmbracelet/glamour](https://github.com/charmbracelet/glamour) for Glamour and Glow
 - [Rosé Pine](https://github.com/rose-pine) for the palette
 
 ## Contributing
