@@ -1,0 +1,6 @@
+.DS_Store
+.netlify/
+
+# Go
+go.work
+go.work.sum
