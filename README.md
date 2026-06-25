@@ -16,13 +16,29 @@
 </p>
 <!-- markdownlint-enable MD013 -->
 
-[Glamour](https://github.com/charmbracelet/glamour) styles for terminal markdown — headings, emphasis, links, and fenced
-code with syntax highlighting, all in [**Rosé Pine**](https://rosepinetheme.com/) colors. Use them in any Glamour-based
-apps so rendered READMEs and notes match the rest of your terminal setup.
+## What is Glamour?
 
-Go sources under [`styles/`](styles/) build portable `styles/*.json` stylesheets; colors follow the official Rosé Pine
-palette. If you're not building your own application and just want to view Rosé Pine syntax highlighted markdown files,
-then you probably want to try [rose-pine-bat](https://github.com/drluckyspin/rose-pine-bat) directly.
+[Glamour](https://github.com/charmbracelet/glamour) is a Go library from Charm that turns Markdown into styled terminal
+output. It renders headings, lists, links, tables, block quotes, and fenced code blocks with syntax highlighting — using
+ANSI colors and formatting instead of HTML. [Glow](https://github.com/charmbracelet/glow) uses Glamour to preview notes;
+many CLIs and TUIs embed it directly to show help text, changelogs, or rendered READMEs in the terminal.
+
+## Why use Glamour in your app?
+
+Plain `fmt.Println` dumps Markdown as raw characters — `# Title` and `` `code` `` stay literal. Glamour parses the
+Markdown and applies a **stylesheet** that controls how each element looks: heading color, link style, code-block
+background, syntax token colors, and so on. You pass a Markdown string (or file) to a renderer, pick a style, and get
+terminal-ready output your users can read without leaving the shell.
+
+## Why this project?
+
+Glamour ships built-in themes (Dracula, Tokyo Night, and others) but not [**Rosé Pine**](https://rosepinetheme.com/).
+This repo fills that gap: four Rosé Pine variants as Glamour styles, maintained in Go under [`styles/`](styles/) and
+exported as portable `styles/*.json` files. Load a JSON file from your app, or copy the Go sources upstream into Glamour
+— either way you get Rosé Pine markdown rendering that matches the rest of your terminal theme.
+
+Not building an app? Use the JSON stylesheets with any Glamour-based tool, or try
+[rose-pine-glow](https://github.com/drluckyspin/rose-pine-glow) to easily install the themes into Glow locally.
 
 ## TL;DR
 
